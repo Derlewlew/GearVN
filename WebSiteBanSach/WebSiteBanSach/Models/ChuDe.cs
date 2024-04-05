@@ -25,3 +25,4 @@ namespace WebSiteBanSach.Models
         public virtual ICollection<Sach> Saches { get; set; }
     }
 }
+//avbeqv    q

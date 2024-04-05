@@ -60,7 +60,7 @@ namespace WebSiteBanSach.Controllers
          }
          public ActionResult DangXuat()
          {
-             Session["TaiKhoan"] = null;
+             Session["TaiKhoan"] = null;//veiodbvndv 
              Session["HoTen"] = null;
              return Redirect("/");
 

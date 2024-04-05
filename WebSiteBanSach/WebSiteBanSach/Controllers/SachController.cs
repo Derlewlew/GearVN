@@ -26,7 +26,7 @@ namespace WebSiteBanSach.Controllers
                 //Trả về trang báo lỗi 
                 Response.StatusCode = 404;
                 return null;
-            }
+            }//ưedvbưvqevbrưhjen
             ViewBag.TenChuDe = db.ChuDes.Single(n => n.MaChuDe == sach.MaChuDe).TenChuDe;
             ViewBag.NhaXuatBan = db.NhaXuatBans.Single(n => n.MaNXB == sach.MaNXB).TenNXB;
             return View(sach);

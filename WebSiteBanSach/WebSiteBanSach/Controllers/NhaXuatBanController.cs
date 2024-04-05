@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,7 +9,7 @@ namespace WebSiteBanSach.Controllers
 {
     public class NhaXuatBanController : Controller
     {
-        //
+        //hisjssn
         // GET: /NhaXuatBan partial/
         QuanLyBanHangEntities db = new QuanLyBanHangEntities();
         public PartialViewResult NhaXuatBanPartial()

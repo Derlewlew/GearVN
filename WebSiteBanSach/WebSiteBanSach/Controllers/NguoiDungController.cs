@@ -15,7 +15,7 @@ namespace WebSiteBanSach.Controllers
         public ActionResult Index()
         {
             return View();
-        }
+        }//cưhcvnqưec
          [HttpGet]
         public ActionResult DangKy()
         {

@@ -20,7 +20,7 @@ namespace WebSiteBanSach.Controllers
         public ActionResult DangKy()
         {
             return View();
-        }
+        }//vcqewuovbneqmv
          [HttpPost]
         // [ValidateAntiForgeryToken]
          public ActionResult DangKy(KhachHang kh)

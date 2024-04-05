@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using WebSiteBanSach.Models;
 using PagedList;
 using PagedList.Mvc;
-# ừihenvưemv
+//ừihenvưemv
 namespace WebSiteBanSach.Controllers
 {
     public class ChuDeController : Controller
@@ -18,7 +18,7 @@ namespace WebSiteBanSach.Controllers
         public ActionResult ChuDePartial()
         {
             return PartialView(db.ChuDes.Take(8).ToList());
-        }
+        }//vsjbdvjn d;av
         //Sách theo chủ đề
         public ViewResult SachTheoChuDe(int MaChuDe = 0)
         {
